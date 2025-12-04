@@ -104,6 +104,4 @@ Esta actividad me permitió practicar:
 * Uso avanzado de **CSS Grid** y **Flexbox**
 * Estructuración de una página de estilo *one-page*
 
---- Ver web: 
-
-¿Quieres alguna otra mejora?
+--- Ver web: https://sara-mart.github.io/clubDeBaloncesto/
