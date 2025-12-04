@@ -1,6 +1,4 @@
-Aquí tienes una versión **organizada, clara y lista para un README de GitHub**, manteniendo un tono profesional y explicativo:
 
----
 
 # 🏀 Actividad 2: Equipo de Baloncesto con HTML y CSS Grid
 
