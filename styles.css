@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap:20px;
+    
+    
+}
+
+nav img{
+    height: 10vh;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav h3{
+    color: #ffffff;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 4vh;
+
+}
+nav #selected{
+    font-weight: 900;
+    font-style: italic;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*ESTILOS PRIMERA PARTE INICIO*/
+
+#section1{
+    background-image: url('img/fondo.png');
+    
+}
+
+#contenedor {
+    width: 100%;
+    height: calc(100vh - 10vh); /* restamos la altura del nav */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor img{
+    width: 40vw;
+}
+
+/*ESTILOS SEGUNDA PARTE JUGADORES*/
+
+#section2{
+    background-color: #FF7110;
+}
+
+.player-card{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.player-card img{
+    border-radius: 50%;
+    height: 10vw;
+    width: 10vw;
+    background-color:#b6b2b2 ;
+    
+}
+
+.player-card h3{
+    color:#BA0909;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#team{
+    margin-top: 20px;
+    display: grid;                 
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto)); 
+    /*Esto lo he usado porque sino no conseguia que quedase centrado y que ocupase un espacio determinado*/
+    /*Si no lo usaba quedaba centrado pero sin margenes*/
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*ESTILOS TERCERA PARTE PARTIDOS (complementaria)*/
+
+#section3{
+    background-image: url(img/fondo2.jpg);
+    
+}
+
+#partidos{
+    margin-top: 20px;
+    display: grid;                 
+    grid-template-columns: repeat(3, auto); 
+    column-gap: 50px;
+    row-gap: 50px;
+    justify-content: center;
+
+}
+
+.partido{
+    width: 250px;
+    background-color: #ffffff8c;
+    padding: 10px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.partido img{
+    
+    height: 5vw;
+    
+    
+}
+
+.partido strong{
+    font-weight: 900;
+    font-style: italic;
+}
